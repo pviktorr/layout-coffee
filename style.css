@@ -47,8 +47,8 @@
         color: gray ;
         font-family: "Playfair Display", serif;
         font-weight: regular;  
-        width: 172px;
-        height: 34px;
+        width: 170px;
+        height: 35px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -65,39 +65,45 @@
     width: 100vw;
     }
     .pai{
-        background-color: aqua;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         position: absolute;
         height: 40vh;
-        width: 50vw;
+        width: 80vw;
     }
     .titulo1 {
-        height: 200px;
-        width: 70%;
-        font-size: 170px;
-        background-color: yellow;
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        margin-top: -140px;
+        height: 90px;
+        width: 47%;
+        font-size: 180px;
     }
     .imagem1{
-        height: 200px;
-        width: 30%;
-        background-color: red;
+        margin-right: 350px;
+        height: 100px;
+        width: 100px;
+
+
     }
     .titulo2 {
+        margin-left: 100px;
         height: 200px;
-        width: 30%;
-        background-color: purple;
+        
+
     }
     .imagem2{
-        height: 200px;
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        margin-top: -100px;
+        margin-right: -25vw;
         width: 70%;
-        font-size: 170px;
-        background-color: blue;
+        font-size: 190px;
     }
 
     footer{
-        background-color: black;
-    height: 300px    
+        background-color:#f9cf93;
+        height: 300px;    
     }
