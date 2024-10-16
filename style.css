@@ -106,7 +106,8 @@
     footer{
         background-color:#f9cf93;
         height: 300px; 
-        display: flex;   
+        display: flex; 
+        flex-direction: column;  
     }
     .explore{
 
@@ -119,8 +120,51 @@
     button{
         background-color: black;
         margin-top: -80px;
-        margin-left:-50px;
+        margin-left:-30px;
         color: white;
-        font-size: 25px;
+        font-size: 35px;
         width: 10vw;
+        height: 7vh;
+        border-radius: 69px;
+    }
+
+    @media (max-width: 375px){
+        header{
+            flex-direction: column-reverse;
+            display:flex ;
+            align-items: center;
+            justify-content: top;
+            font-size: 10px;
+            gap: 16px;
+        }
+        menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .search{
+            height: 30px;
+            width: 150px;
+        }
+        .name1{
+            display: none;
+            
+        }
+
+        main{
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+        }
+        .titulo1{
+            font-size:  20px;
+
+        }
+        .titulo2{
+            font-size: 20px;
+        }
+
+       
+
     }
